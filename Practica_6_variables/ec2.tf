@@ -1,9 +1,9 @@
 # Crea la instancia EC2
 resource "aws_instance" "public_instance" {
-  ami           = "ami-0fa3fe0fa7920f68e"
+  ami           = "ami-0bfe853bc6518ddd4"
   instance_type = "t2.micro"
   tags = {
-    Name        = "Free-Tier-EC2"
+    Name        = "Windows Server 2026"
     Environment = "Dev"
   }
 }
